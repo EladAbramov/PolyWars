@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3809954463106571216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3809954463106571222}
+  - component: {fileID: 3809954463106571223}
+  - component: {fileID: 3809954463106571221}
+  - component: {fileID: 3809954463106571220}
+  - component: {fileID: 3809954463106571227}
+  - component: {fileID: 3809954463106571226}
+  - component: {fileID: 3809954463106571225}
+  m_Layer: 0
+  m_Name: GameManagerObject 1
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3809954463106571222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809954463106571216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3809954463106571223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809954463106571216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 614024af3b2486648b07cfed37a196a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exitPanelCanvas: {fileID: 0}
+  exitPanel: {fileID: 0}
+  npcIntensityRate: 0.05
+  cactiIntensityRate: 0.01
+--- !u!114 &3809954463106571221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809954463106571216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79cc2667a8eb5c8428a592643f70bb92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nPCSprites:
+  - {fileID: 21300000, guid: 79812e83346358d47861623c8486269d, type: 3}
+  - {fileID: 21300000, guid: 35fbe6e5467a79c4e9981745270cb2de, type: 3}
+  - {fileID: 21300000, guid: 0ad23776aa9435a4e919814ed08797a1, type: 3}
+  NPCPrefab: {fileID: 7113596181156209096, guid: f7a7ae117911c704bb2fc238179784ef,
+    type: 3}
+  spawnRate: 5
+  playerTarget: {fileID: 0}
+--- !u!114 &3809954463106571220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809954463106571216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3840a1cbef76a9438be8624d740634e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CactiSprites:
+  - {fileID: 21300000, guid: 7a40eada1e05b8645a2d85afe5175333, type: 3}
+  - {fileID: 21300000, guid: d19ab6794471cc6408e05c77fe9a36f3, type: 3}
+  - {fileID: 21300000, guid: 229dd550b8962204b9f2eacccaf26a4b, type: 3}
+  CactiPrefab: {fileID: 4147642542862255613, guid: 2feb0070bb551b54ead88a350a7aaa03,
+    type: 3}
+  spawnRate: 7
+  spawnRateAnchor: 0
+--- !u!114 &3809954463106571227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809954463106571216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff10cb5e449f1cb46b006e06f9d96f1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PowerUpsCanvas: {fileID: 0}
+  PowrUpsPanel: {fileID: 0}
+--- !u!114 &3809954463106571226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809954463106571216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e3481cce4099842a8cf7c68e20e4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redCactusSkill: {fileID: 0}
+  blueCactusSkill: {fileID: 0}
+  greenCactusSkill: {fileID: 0}
+  freezeTime: 5
+  redSprites:
+  - {fileID: 21300000, guid: 3c34028275c7b204c8d4d0977ee3abd1, type: 3}
+  - {fileID: 21300000, guid: 024a31e3cac0532438de8c380c1592fe, type: 3}
+  - {fileID: 21300000, guid: 96d35d189221a3e41acc0f63d566d80e, type: 3}
+  blueSprites:
+  - {fileID: 21300000, guid: 6825d3f5f3417c244a5987f57d891d97, type: 3}
+  - {fileID: 21300000, guid: 5087f58b0133424418583552354c7b31, type: 3}
+  - {fileID: 21300000, guid: c31c5e44634a6ca4784a78d072291963, type: 3}
+  greenSprites:
+  - {fileID: 21300000, guid: 7fca0ae24199abf4f8d5e66a21a2486a, type: 3}
+  - {fileID: 21300000, guid: d246a9934ce63024eb1c4e684449c912, type: 3}
+  - {fileID: 21300000, guid: 5150f8c1558eceb419087471b542a7fd, type: 3}
+--- !u!114 &3809954463106571225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809954463106571216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6393b5f573504014f9e8e2a0a93a4267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
